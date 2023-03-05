@@ -8,3 +8,4 @@ candidate #2 ||||||     60 % </br>
 candidate #1 ||||     40 %</br>
 _________________________</br>
 Total votes: 5
+</pre>
