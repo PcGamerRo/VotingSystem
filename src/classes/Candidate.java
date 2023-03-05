@@ -6,7 +6,7 @@ public class Candidate extends Entity {
     public int votes = 0;
     public static int totalVotes;
     public Candidate() {
-      super("event #"+c_counter);
+      super("candidate #"+c_counter);
         this.id = c_counter;
         increment();
     }

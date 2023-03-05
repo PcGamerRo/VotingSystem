@@ -17,6 +17,7 @@ public class Main {
         Voter voter2 = new Voter();
         Voter voter3 = new Voter();
         Voter voter4 = new Voter();
+        Voter voter5 = new Voter();
 
         try {
             voter1.submit(candidate1);
@@ -35,6 +36,11 @@ public class Main {
         }
         try {
             voter4.submit(candidate2);
+        } catch (InvalidVoteException e) {
+            System.out.println(e.getMessage());
+        }
+        try {
+            voter5.submit(candidate2);
         } catch (InvalidVoteException e) {
             System.out.println(e.getMessage());
         }
