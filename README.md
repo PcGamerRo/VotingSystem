@@ -1,4 +1,6 @@
 # VotingSystem
+This project is still in progress!
+
 A console application for managing votes, voters and candidates.
 
 an example of a possible result:
